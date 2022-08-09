@@ -51,4 +51,5 @@ reset.addEventListener("click", () => {
   seconds = 0;
   minutes = 0;
   hours = 0;
+  timeGoing = setInterval(clock, 1000);
 });

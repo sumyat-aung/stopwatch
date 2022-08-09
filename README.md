@@ -3,8 +3,8 @@
 ## Overview
 
   <h3>   Demo - URL link -
-    <a href="https://checkout-by-sumyat.netlify.app/">
-     https://colorflipper-by-sumyat.netlify.app/
+    <a href="https://stopwatch-by-sumyat.netlify.app/">
+    https://stopwatch-by-sumyat.netlify.app/
     </a>
   </h3>
 
@@ -16,7 +16,7 @@
 <br/>
 
 <div align="center">
-<img src="Demo/small-screen.png" width="600">
+<img src="Demo/small-screen.png" width="300">
 </div>
 
 <br/>

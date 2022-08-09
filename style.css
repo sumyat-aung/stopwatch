@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inconsolata", monospace;
+}
+
+body {
+  background-color: #1d1d1d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  margin-top: -200px;
+}
+
+#time {
+  font-size: 5rem;
+  color: #e8e8e3;
+  padding: 60px;
+  text-align: center;
+}
+
+#btn {
+  text-align: center;
+}
+
+#start,
+#continue,
+#reset,
+#pause {
+  color: #e8e8e3;
+  border: 1px solid#E8E8E3;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #1d1d1d;
+  font-family: "Inconsolata", monospace;
+}

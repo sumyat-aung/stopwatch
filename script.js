@@ -4,10 +4,12 @@ const cont = document.getElementById("continue");
 const pause = document.getElementById("pause");
 const reset = document.getElementById("reset");
 
+// setting time
 let seconds = 0;
 let minutes = 0;
 let hours = 0;
 
+// how clock will work
 let clock = () => {
   seconds += 1;
   if (seconds === 60) {
@@ -18,7 +20,7 @@ let clock = () => {
       hours += 1;
     }
   }
-  console.log(hours, minutes, seconds);
+  // console.log(hours, minutes, seconds);
 
   let secDis = seconds < 10 ? `0${seconds}` : seconds;
   let minDis = minutes < 10 ? `0${minutes}` : minutes;
@@ -27,6 +29,7 @@ let clock = () => {
   time.textContent = `${hourDis}:${minDis}:${secDis}`;
 };
 
+// time going 1s using setInterval
 let timeGoing;
 
 start.addEventListener("click", () => {
